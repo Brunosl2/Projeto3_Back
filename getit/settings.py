@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-)jyq6cwf+w_j7dzmpngf^ee1t+&fp4x#2z*=gxvhnz7%g$9m&d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://moviefy-backend.onrender.com']
+ALLOWED_HOSTS = ['moviefy-backend-lsy1.onrender.com','localhost', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://moviefy-backend-lsy1.onrender.com']
 
 
 # Application definition
